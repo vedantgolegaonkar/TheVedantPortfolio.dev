@@ -1,0 +1,66 @@
+.background {
+    position: relative;
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    /* background-image: url("../../assets/home-background.jpg");
+    background-repeat: no-repeat; */
+}
+
+.line {
+    height: 2px;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+}
+
+.name{
+    color: White;
+    position: absolute;
+    top: 40.5%;
+    left: 40%;
+    opacity: 0;
+    font-size: xx-large;
+}
+
+.role{
+    color: white;
+    position: absolute;
+    top: 44.5%;
+    left: 45%;
+    opacity: 0;
+    font-size: x-large;
+}
+
+
+/* @media screen and (max-width: 300px) {
+    .line{
+        left: 47%;
+    }
+
+
+    .name{
+        font-size: 15px;
+        left: 20%;
+        top: 43%;
+    }
+
+
+    .role{
+        font-size: 12px;
+        left: 30%;
+        top: 44%;
+    }
+
+}
+
+@media screen and (max-width: 600px ) {
+    
+} */

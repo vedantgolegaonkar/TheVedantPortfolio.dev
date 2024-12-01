@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './App.css';
+import './PreLoader.css';
 
-const Loader = () => {
+const PreLoader = () => {
   const [fadeOut, setFadeOut] = useState(false); 
   const navigate = useNavigate();
 
@@ -55,4 +55,4 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default PreLoader;
