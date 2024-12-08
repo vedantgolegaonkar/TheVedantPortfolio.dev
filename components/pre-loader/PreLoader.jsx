@@ -14,7 +14,7 @@ const PreLoader = () => {
 
     
     const redirectTimer = setTimeout(() => {
-      navigate('/home');
+      navigate('/TheVedantPortfolio.dev');
     }, 10000);
 
     

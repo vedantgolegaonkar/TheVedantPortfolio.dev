@@ -6,8 +6,6 @@
     padding: 0;
     overflow: hidden;
     background-color: black;
-    /* background-image: url("../../assets/home-background.jpg");
-    background-repeat: no-repeat; */
 }
 
 .line {
@@ -38,29 +36,3 @@
     opacity: 0;
     font-size: x-large;
 }
-
-
-/* @media screen and (max-width: 300px) {
-    .line{
-        left: 47%;
-    }
-
-
-    .name{
-        font-size: 15px;
-        left: 20%;
-        top: 43%;
-    }
-
-
-    .role{
-        font-size: 12px;
-        left: 30%;
-        top: 44%;
-    }
-
-}
-
-@media screen and (max-width: 600px ) {
-    
-} */

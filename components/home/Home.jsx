@@ -56,11 +56,13 @@ const Home = () => {
   
 
   return (
+    <>
     <div className="background">
       <div className="line"></div>
       <div className="name">Vedant Girish Golegaonkar</div>
       <div className="role">Frontend Developer</div>
     </div>
+    </>
   );
 };
 

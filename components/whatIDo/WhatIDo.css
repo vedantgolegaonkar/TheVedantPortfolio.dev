@@ -1,0 +1,92 @@
+.heading {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(78, 74, 74);
+    color: white;
+    position: relative;
+    padding-right: 85px;
+    overflow: hidden;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/whatIDoBgImage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.4; /* Background opacity */
+    z-index: 1;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    background-color: white; /* Line color */
+    z-index: 2; /* Above the background */
+}
+
+/* Vertical Line */
+.heading .vertical-line {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px; 
+    height: 70%; 
+    background-color: rgb(235, 235, 235); 
+    z-index: 2; 
+}
+
+/* Horizontal Line */
+/* .heading .horizontal-line {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 90%; 
+    height: 2px;
+    background-color: rgb(235, 235, 235); 
+    z-index: 2;
+} */
+
+.what,
+.web-dev {
+    position: relative; /* Text stays above lines */
+    z-index: 3;
+}
+
+.what {
+    padding-top: 85px;
+    font-size: 45px;
+    padding-left: 85px;
+}
+
+.web-dev {
+    padding-left: 85px;
+    padding-top: 50px;
+}
+
+.web-dev img {
+    width: 50px;
+}
+
+.web-dev span {
+    font-size: 27px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    padding: 13px 0 0 15px;
+}
+
+.text{
+    color: white;
+    margin: 20px 700px 0 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+

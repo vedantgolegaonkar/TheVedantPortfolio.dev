@@ -1,0 +1,67 @@
+.intro {
+  height: 900px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  position: relative;
+}
+
+.call {
+  color: rgb(255, 255, 255);
+  padding-left: 85px;
+  font-size: 50px;
+  margin-top: 85px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
+
+.title {
+  color: white;
+  padding-left: 85px;
+  margin: 30px 180px 0 0;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.orange-line {
+  width: 150px;
+  height: 3px;
+  background-color: orangered;
+  margin: 50px 0 0 85px;
+}
+
+
+.profile-pic {
+  width: 230px;
+  height: 230px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  top: 350px;
+  left: 70%;
+  background-image: url("../../assets/profile-pic.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text1{
+    color: white;
+    margin: 50px 600px 0 85px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text2{
+    color: white;
+    margin: 50px 600px 0 85px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text3{
+    color: white;
+    margin: 50px 600px 0 85px;
+    font-size: 20px;
+    line-height: 30px;
+}
