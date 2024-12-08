@@ -4,7 +4,7 @@
     background-color: rgb(78, 74, 74);
     color: white;
     position: relative;
-    padding-right: 85px;
+    padding-right: 90px;
     overflow: hidden;
 }
 
@@ -19,18 +19,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.4; /* Background opacity */
+    opacity: 0.4;
     z-index: 1;
 }
 
 .heading::after {
     content: '';
     position: absolute;
-    background-color: white; /* Line color */
-    z-index: 2; /* Above the background */
+    background-color: white; 
+    z-index: 2; 
 }
 
-/* Vertical Line */
+
 .heading .vertical-line {
     position: absolute;
     top: 35%;
@@ -42,21 +42,20 @@
     z-index: 2; 
 }
 
-/* Horizontal Line */
-/* .heading .horizontal-line {
+.heading .horizontal-line {
     position: absolute;
-    top: 50%;
+    top: 63%;
     left: 5%;
     transform: translateY(-50%);
     width: 90%; 
     height: 2px;
     background-color: rgb(235, 235, 235); 
     z-index: 2;
-} */
+}
 
 .what,
 .web-dev {
-    position: relative; /* Text stays above lines */
+    position: relative; 
     z-index: 3;
 }
 
@@ -76,7 +75,7 @@
 }
 
 .web-dev span {
-    font-size: 27px;
+    font-size: 28px;
     position: absolute;
     text-align: center;
     justify-content: center;
@@ -90,3 +89,28 @@
     line-height: 30px;
 }
 
+.flex2{
+    position: relative;
+    top: -160px;
+    left: 750px;
+    margin-right: 10px;
+
+}
+
+.flex2 img{
+    width: 45px;
+}
+
+.flex3{
+    position: relative;
+    top: -85px;
+
+}
+
+.flex4{
+    position: relative;
+    top: -250px;
+    left: 750px;
+    margin-right: 10px;
+
+}
