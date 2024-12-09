@@ -13,7 +13,7 @@ const Introduction = () => {
         </div>
         <div className="orange-line"></div>
         <div className="profile-pic"></div>
-        <div className="text1">
+        <div className="text11">
           I am a Business Analyst and Project Manager by profession, with a
           strong foundation in software development. My expertise lies in
           building robust and innovative React applications, particularly

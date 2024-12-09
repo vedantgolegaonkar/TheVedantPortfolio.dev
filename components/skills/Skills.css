@@ -1,0 +1,158 @@
+.skills {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-right: 90px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.development {
+    position: relative;
+}
+
+.text1 {
+    font-size: 45px;
+    margin: 85px 0 0 85px;
+}
+
+.development img{
+    margin: 60px 0 0 85px;
+}
+
+.development span{
+    font-size: 32px;
+    position: absolute;
+    top: 28%;
+    padding: 50px 0 0 20px;
+}
+
+.left-one{
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 85px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left-two{
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 64%;
+    left: 85px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left-three {
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 83%;
+    left: 85px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.right-one{
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 240px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.right-two{
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 64%;
+    left: 240px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.right-three {
+    width:120px;
+    height: 120px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 83%;
+    left: 240px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ba {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.up img{
+    margin: 220px 0 0 85px;
+}
+
+.up span{
+    font-size: 32px;
+    position: absolute;
+    top: 27.5%;
+    padding: 50px 0 0 20px;
+}
+
+
+.down {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
