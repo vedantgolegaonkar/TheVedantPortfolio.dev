@@ -150,9 +150,15 @@
     padding: 50px 0 0 20px;
 }
 
+.checkbox{
+    width: 18px;
+    position: relative;
+    left: 115%;
+    top: 2%;
+}
+
 
 .down {
-    background-color: green;
     display: flex;
     flex-direction: row;
 }
